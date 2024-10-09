@@ -1,36 +1,3 @@
-
-# **命令行联网：**
-
-```python
-1、打开connection.py文件修改如下指定位置IP地址
-data = {
-    "c": 'Portal',
-    "a": 'login',
-    "callback": 'dr1003',
-    "login_method": '1',
-    "user_account": user_account,
-    "user_password": user_password,
-    ##在这里修改成服务器的所在的ip地址
-    "wlan_user_ip": '10.12.44.233',
-    ###############################
-    "wlan_user_ipv6": '',
-    "wlan_user_mac": '000000000000',
-    "wlan_ac_ip": '',
-    "wlan_ac_name": '',
-    "jsVersion": '3.3.3',
-    "v": '9749'
-}
-
-2、将connection.py文件上传到服务器andrew用户目录下
-
-3、cd到该目录执行
-python connection.py 学号 密码
-
-ping www.baidu.com 看下联网是否成功
-```
-
-
-
 # **安装unbantu时分区：**
 
    ## 系统盘：
